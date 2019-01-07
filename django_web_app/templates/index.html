@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block style %}
+    {{ block.super }}
+        <link href="/static/css/django_web_app.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+    <div class="django_web_app_header">
+        <strong>基于Python Django框架项目</strong>
+    </div>
+    <br>
+    <div class="div-image"> 
+        <a href="/ansible/">
+        <img src="/static/images/ansible.jpeg" alt="ansible_web" width="300" height="150" />
+    </div>
+{% endblock %}

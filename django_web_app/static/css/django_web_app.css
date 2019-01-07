@@ -1,0 +1,13 @@
+.django_web_app_header {
+    height:60px;
+    background:#00BBFF;
+    vertical-align:middle;
+    line-height:60px;
+    text-align:center;
+}
+.div-image {
+    height:150px;
+    width:300px;
+    border:2px solid;
+    border-radius:10px;
+}
