@@ -7,3 +7,5 @@ ansible_web_app/libs/*.pyc
 ansible_web_app/migrations/
 
 django_web_app/*.pyc
+
+.idea/
