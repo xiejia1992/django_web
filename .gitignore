@@ -1,2 +1,7 @@
 db.sqlite3
+
 django_web/*.pyc
+
+ansible_web_app/*.pyc
+ansible_web_app/libs/*.pyc
+ansible_web_app/migrations/

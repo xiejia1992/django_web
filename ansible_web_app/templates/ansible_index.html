@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block style %}
+    {{ block.super }}
+        <link href="/static/css/ansible_web_app.css" rel="stylesheet">
+{% endblock %}
+{% block content %}
+    <div class="ansible_web_app_header">
+        <strong> Ansible 远程控制主机 </strong>
+    </div>
+    <br>
+    <div style="display:flex">
+        <div style="margin-left:30px;margin-right:5px;height:570px;width:200px;border:2px solid;border-radius:10px">
+        </div>    
+        <div style="margin-left:5px;margin-right:5px;height:570px;width:300px;border:2px solid;border-radius:10px">
+        </div>
+        <div style="margin-right:30px;margin-left:5px;height:570px;width:100%;border:2px solid;border-radius:10px">
+            test
+        </div>
+    </div>
+{% endblock %}
